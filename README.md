@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:w="urn:schemas-microsoft-com:office:word"
@@ -15,17 +14,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Oxana Storoj</o:Author>
   <o:LastAuthor>Oxana Storoj</o:LastAuthor>
-  <o:Revision>6</o:Revision>
+  <o:Revision>7</o:Revision>
   <o:TotalTime>2</o:TotalTime>
   <o:Created>2025-10-19T08:25:00Z</o:Created>
-  <o:LastSaved>2025-10-20T16:13:00Z</o:LastSaved>
+  <o:LastSaved>2025-11-23T19:25:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>147</o:Words>
-  <o:Characters>853</o:Characters>
+  <o:Words>5</o:Words>
+  <o:Characters>31</o:Characters>
   <o:Company>VIENNA INSURANCE GROUP</o:Company>
-  <o:Lines>7</o:Lines>
+  <o:Lines>1</o:Lines>
   <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>999</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>35</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -37,7 +36,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Print</w:View>
-  <w:Zoom>110</w:Zoom>
+  <w:DontDisplayPageBoundaries/>
   <w:SpellingState>Clean</w:SpellingState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
@@ -681,9 +680,6 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
-span.SpellE
-	{mso-style-name:"";
-	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -730,80 +726,13 @@ div.WordSection1
 
 <div class=WordSection1>
 
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'># <span
-class=SpellE>qa</span>-final-<span class=SpellE>project</span>-<span
-class=SpellE>java</span> <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>[![CI
-<span class=SpellE>Pipeline</span> for QA Final Project
-JAVA](https://github.com/oxanastoroj-hub/qa-final-project-java/actions/workflows/ci.yml/badge.svg)](https://github.com/oxanastoroj-hub/qa-final-project-java/actions/workflows/ci.yml)<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Ce
-face proiectul. Proiectul va rula testele automate Cum se <span class=SpellE>ruleaz</span>?
-<o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>testele
-local (comanda <span class=SpellE>mvn</span> test). Local se <span
-class=SpellE>ruleaza</span> cu ajutorul <span class=SpellE>fisierului</span> <span
-class=SpellE>ci.yml</span> <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Cum se
-<span class=SpellE>construie?te</span> ?i se <span class=SpellE>ruleaz</span>?
-imaginea <span class=SpellE>Docker</span> (<span class=SpellE>docker</span> <span
-class=SpellE>build</span> ... ?i <span class=SpellE>docker</span> <span
-class=SpellE>run</span> ...). <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- se
-<span class=SpellE>creaza</span> un <span class=SpellE>repo</span> pe <span
-class=SpellE>github</span> <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- se
-<span class=SpellE>cloneaza</span> pe local <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- se
-<span class=SpellE>creaza</span> o anumita structura de <span class=SpellE>foldere</span>
-in <span class=SpellE>root</span> <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- se
-<span class=SpellE>adauga</span> <span class=SpellE>dependintele</span>
-proiectului (<span class=SpellE>yaml</span>, <span class=SpellE>xml</span>, ci,
-et) <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- <span
-class=SpellE>savepoint</span>: se face <span class=SpellE>git</span> <span
-class=SpellE>add</span> . &gt;&gt; <span class=SpellE>git</span> <span
-class=SpellE>commit</span> -m &gt;&gt; <span class=SpellE>git</span> <span
-class=SpellE>push</span> <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- Se
-<span class=SpellE>containerezeaza</span> in <span class=SpellE>dicker</span>
-cu <span class=SpellE>dockerfile</span> <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- Se
-<span class=SpellE>creaza</span> <span class=SpellE>tag</span> <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>- Se
-face <span class=SpellE>push</span> in <span class=SpellE>docker</span> <o:p></o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
-
-<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>Un <span
-class=SpellE>badge</span> de status care arat? live dac?<o:p></o:p></span></p>
+<p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>#
+qa-final-project-java-lectia13<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'><span
-style='mso-spacerun:yes'>&nbsp;</span><span class=SpellE>pipeline-ul</span> de
-CI/CD este &quot;passing&quot; sau &quot;<span class=SpellE>failing</span>&quot;.
-&gt;&gt;&gt;&gt;&gt;&gt; bd6a1ea (<span class=SpellE>feat</span>: <span
-class=SpellE>Adauga</span> primul test cu pseudocod pentru proiectul final,
-configurare si pom.xml) <o:p></o:p></span></p>
+style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></p>
 
 </div>
 
