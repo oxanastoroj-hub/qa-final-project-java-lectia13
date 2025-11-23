@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:w="urn:schemas-microsoft-com:office:word"
@@ -809,3 +810,7 @@ configurare si pom.xml) <o:p></o:p></span></p>
 </body>
 
 </html>
+=======
+# qa-final-project-java-lectia13
+Homework L13
+>>>>>>> b92ee8e5bb4a425a3335732587f69a2eb7340580
