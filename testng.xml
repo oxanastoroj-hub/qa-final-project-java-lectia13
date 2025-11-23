@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite Lectia14 Tema pentru acasa">
+
+    <!-- Set de teste 1: Rulează DOAR testele de email -->
+    <test name="Post Validation Tests">
+        <groups>
+            <run>
+                <include name="test" />
+            </run>
+        </groups>
+        <classes>
+            <!-- Specificăm clasa unde se află grupurile -->
+            <class name="com.qaschool.validators.PostValidatorTest" />
+        </classes>
+    </test>
+
+</suite>
